@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(./Recursos/pattern-background-desktop.svg);   
+    background-repeat: no-repeat;
+}
+.section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 600px;
+}
+.img-content{
+    display: flex;
+    width: 450px;
+    height: 200px;
+    border-top-left-radius: 8px;
+}
+.img-content img{
+    width: 450px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.resumen-content{
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    width: 450px;
+    height: 400px;
+    background-color: hsl(225, 100%, 98%);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.textos-content{
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*background-color: aqua;*/
+    width: 450px;
+    height: 160px;
+}
+.textos-content h3{
+    margin-top: 15px;
+}
+.textos-content p {
+    font-size: 16px;
+    margin: 30px;
+    text-align: center;
+}
+.info-content{
+    box-shadow: 2px 4px 16px -12px rgba(0,0,0,0.75);
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 380px;
+    height: 80px;
+    border-radius: 8px;
+}
+.info-content-text-img{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-around;
+}
+.info-content-text-img img{
+    /*background-color: antiquewhite;*/
+    display: flex;
+    width: 60px;    
+}
+.info-content-text-img h3{
+    font-size: 18px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+}
+.info-content-text-img p{
+    font-size: 14px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+}
+.content-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+}
+.content-button a{
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(245, 75%, 52%);
+    font-size: 17px;
+    font-weight: 500;
+}
+.buttons-content{
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /*background-color: aqua;*/
+    width: 400px;
+    height: 130px;
+}
+.btn-principal{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color:hsl(245, 75%, 52%);
+    border: none;
+    color: hsl(225, 100%, 94%);
+    border-radius: 12px;
+    width: 380px;
+    height: 55px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.btn-principal:hover{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color:hsl(245, 75%, 52%);
+    border: none;
+    color: hsl(225, 100%, 94%);
+    border-radius: 12px;
+    width: 380px;
+    height: 55px;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 6px 6px 30px -11px hsl(245, 75%, 52%);
+
+
+}
+.btn-secundario{
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Red Hat Display', sans-serif;
+    width: 300px;
+    height: 30px;
+    background: none;
+    border-radius: 12px;
+    border: none;
+}
+.btn-secundario:hover{
+    font-family: 'Red Hat Display', sans-serif;
+    width: 300px;
+    height: 30px;
+    background: none;
+    border-radius: 12px;
+    border: 1px solid black;
+}
